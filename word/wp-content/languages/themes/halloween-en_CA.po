@@ -1,0 +1,123 @@
+# Translation of Halloween in English (Canada)
+# This file is distributed under the same license as the Halloween package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-21 01:52:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Halloween\n"
+
+#. Theme Name of the plugin/theme
+msgid "Halloween"
+msgstr "Halloween"
+
+#. Description of the plugin/theme
+msgid "Happy Halloween Ghouls! This is a theme for professionals and promoters in the Halloween and Horror industry: writers, bloggers, artists, toy and prop makers, t-shirt shops, filmmakers, musicians, haunted house coordinators, etc. Its design is very clean, professional, and fully responsive."
+msgstr "Happy Halloween Ghouls! This is a theme for professionals and promoters in the Halloween and Horror industry: writers, bloggers, artists, toy and prop makers, t-shirt shops, filmmakers, musicians, haunted house coordinators, etc. Its design is very clean, professional, and fully responsive."
+
+#: search.php:17
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr "Sorry, nothing matched your search. Please try again."
+
+#: tag.php:4
+msgid "Tag Archives: "
+msgstr "Tag Archives: "
+
+#: search.php:14
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: functions.php:59
+msgid "Sidebar Widget Area"
+msgstr "Sidebar Widget Area"
+
+#: nav-below.php:3
+msgid "%s older"
+msgstr "%s older"
+
+#: nav-below.php:4
+msgid "newer %s"
+msgstr "newer %s"
+
+#: search.php:5
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: functions.php:14
+msgid "Main Menu"
+msgstr "Main Menu"
+
+#: footer.php:4
+msgid "%1$s %2$s %3$s"
+msgstr "%1$s %2$s %3$s"
+
+#: entry-footer.php:2
+msgid "Categories: "
+msgstr "Categories:"
+
+#: entry-footer.php:5
+msgid "Comments"
+msgstr "Comments"
+
+#: author.php:5
+msgid "Author Archives"
+msgstr "Author Archives"
+
+#: category.php:4
+msgid "Category Archives: "
+msgstr "Category Archives: "
+
+#: comments.php:31
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: comments.php:31
+msgid "Trackback"
+msgstr "Trackback"
+
+#: attachment.php:9
+msgid "Return to"
+msgstr "Return to"
+
+#: attachment.php:9
+msgid "Return to %s"
+msgstr "Return to %s"
+
+#: archive.php:8
+msgid "Archives"
+msgstr "Archives"
+
+#: archive.php:7
+msgid "Yearly Archives: %s"
+msgstr "Yearly Archives: %s"
+
+#: archive.php:6
+msgid "Monthly Archives: %s"
+msgstr "Monthly Archives: %s"
+
+#: 404.php:8
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr "Nothing found for the requested page. Try a search instead?"
+
+#: archive.php:5
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
+#: 404.php:5
+msgid "Not Found"
+msgstr "Not Found"
+
+#. Theme URI of the plugin/theme
+msgid "http://halloween.community/theme/"
+msgstr "http://halloween.community/theme/"
+
+#. Author of the plugin/theme
+msgid "Halloween Blog"
+msgstr "Halloween Blog"
+
+#. Author URI of the plugin/theme
+msgid "http://halloween.community/"
+msgstr "http://halloween.community/"

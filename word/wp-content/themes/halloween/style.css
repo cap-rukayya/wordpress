@@ -1,0 +1,119 @@
+/*
+Theme Name: Halloween
+Theme URI: http://halloween.community/theme/
+Author: Halloween Blog
+Author URI: http://halloween.community/
+Description: Happy Halloween Ghouls! This is a theme for professionals and promoters in the Halloween and Horror industry: writers, bloggers, artists, toy and prop makers, t-shirt shops, filmmakers, musicians, haunted house coordinators, etc. Its design is very clean, professional, and fully responsive.
+Version: 2.0.2
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: black, orange, white, dark, two-columns, right-sidebar, fluid-layout, fixed-layout, custom-header, custom-background, custom-colors, custom-menu, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready, holiday, seasonal
+Text Domain: halloween
+
+Halloween WordPress Theme © 2015-2016 Halloween Love
+Halloween is distributed under the terms of the GNU GPL
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}th, td{padding:2px}big{font-size:18px}small, sup, sub{font-size:14px}sup{vertical-align:super}sub{vertical-align:sub}dd{margin-left:20px}kbd, tt{font-family:courier;font-size:12px}ins{text-decoration:underline}del, strike, s{text-decoration:line-through}dt{font-weight:bold}address, cite, var{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*{box-sizing:border-box}
+
+body{font-family:georgia,serif;font-size:16px;color:#777;line-height:normal;padding:5%;word-wrap:break-word;background:#000}
+
+h1, h2, h3, h4, h5, h6{font-family:helvetica,arial,sans-serif;font-weight:bold}
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .comment-body h1, .comment-body h2, .comment-body h3, .comment-body h4, .comment-body h5, .comment-body h6, #reply-title{margin:30px 0 5px}
+h1{font-size:35px}
+h2{font-size:30px}
+h3{font-size:25px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
+p{margin:20px 0}
+* p:last-of-type, #sidebar .widget-container:last-child{margin-bottom:0}
+a, h1, h2, h3, h4, h5, h6, code{color:#f57f00}
+strong{font-weight:bold}
+em{font-style:italic}
+pre{overflow-x:auto;white-space:pre-wrap}
+code{font-family:'courier new',courier,serif}
+hr{height:1px;border:none;margin:30px 0;background:#ccc}
+blockquote{padding:15px;border-left:4px solid #f57f00;margin:20px 0}
+blockquote p:first-of-type{margin-top:0}
+.entry-content ul, .widget-container ul, .comment-body ul, .entry-content ol, .widget-container ol, .comment-body ol{font-family:helvetica,arial,sans-serif;text-indent:-10px;margin:20px 0 20px 40px}
+.entry-content ol, .widget-container ol, .comment-body ol{list-style:decimal inside}
+.entry-content ul li:before, .widget-container ul li:before, .comment-body ul li:before{content:"- "}
+.entry-content li, .widget-container li, .comment-body li{margin:5px 0}
+input, textarea{padding:10px;border:0 none;outline:0 none;margin-top:10px;background:#f6f6f6}
+input[type="submit"], #menu .toggle:hover{cursor:pointer}
+a img, input[type="image"]{border:0 none}
+img, video, table, select, textarea{max-width:100% !important;height:auto}
+table{width:100%}
+
+#wrapper{max-width:1200px;margin:0 auto}
+#header, #container, .post, .widget-container{margin-bottom:30px}
+#container{background:#fff}
+#container:after{display:table;content:"";clear:both}
+#content{width:75%;padding:4%;float:left}
+#sidebar{width:25%;padding:4% 4% 4% 0;float:right}
+#footer{clear:both}
+
+#menu{position:relative;margin-top:10px;background-color:#f57f00;background-repeat:repeat;clear:both}
+#menu ul.menu{padding-left:4px}
+#menu .parent > a, #menu .parent > a:hover{background-image:url(images/arrow.png);background-position:right;background-repeat:no-repeat}
+#menu ul ul .parent > a, #menu ul ul .parent:hover > a:hover, #menu ul ul li:hover ul .parent > a, #menu ul ul li:hover ul .parent > a:hover{background-image:url(images/arrow-right.png);background-position:right;background-repeat:no-repeat}
+#menu ul, #menu ul li{display:inline}
+#menu ul li a{display:inline-block;font-family:'lucida grande',helvetica,arial,verdana,sans-serif;font-size:14px;color:#000;line-height:37px;text-decoration:none;padding:0 15px;border-right-width:1px;border-right-style:solid;border-color:#000}
+#menu ul.menu li a{margin-left:-4px}
+#menu ul li a:hover{color:#f57f00;text-decoration:none;background:#444}
+#menu .current-menu-item a, #menu .current_page_item a{color:#444}
+#menu .current-menu-item .sub-menu a, #menu .current_page_item .children a{color:#666}
+#menu li .sub-menu{margin-left:-4px}
+#menu ul li{position:relative}
+#menu li ul{display:none;position:absolute;top:28px;left:0}
+#menu ul ul li:hover ul, #menu ul ul ul li:hover ul{top:29px}
+#menu li ul a{background:#333}
+#menu ul ul li:hover ul, #menu ul ul ul li:hover ul{left:0;margin:-34px 0 11px 200px}
+#menu ul li:hover ul{display:inline-block}
+#menu ul ul, #menu ul li:hover ul ul, #menu ul ul li:hover ul ul{display:none}
+#menu ul li:hover ul, #menu ul ul li:hover ul, #menu ul ul ul li:hover ul{display:block;z-index:2147483647}
+#menu ul li:hover ul li a, #menu ul ul li:hover ul li a, #menu ul ul ul li:hover ul li a{font-size:13px;line-height:30px;width:200px;padding:0 14px;border-right-width:1px;border-right-style:solid;border-color:#f57f00;margin:0;opacity:0.9}
+#menu ul li:hover ul li a{color:#f57f00}
+#menu ul ul li:hover ul li a{}
+#menu ul ul ul li:hover ul li a{}
+#menu ul li:hover ul li a:hover, #menu ul ul li:hover ul li a:hover, #menu ul ul ul li:hover ul li a:hover{background:#555}
+#menu .toggle{display:none;color:#000;text-align:center;line-height:37px}
+
+#s{width:100%;max-width:200px;margin:0;background:#f57f00 url(images/find.png) no-repeat scroll 98% center / 20px auto}
+#menu #s{width:200px;color:#f57f00;padding:5px;border:none;margin:7px 7px 0 0;float:right}
+#menu #s:focus{background:#000}
+.error404 #content #s, .search #content #s{margin-top:30px}
+
+.button, button, input[type="submit"]{display:inline-block;font-family:georgia,serif;font-size:18px;color:#f57f00;text-decoration:none;padding:10px;border:0;background:#000;opacity:0.8}
+.button:hover, button:hover, input[type="submit"]:hover{opacity:1}
+#site-title a{font-family:georgia,serif;font-size:40px;font-weight:normal;color:#f57f00;text-decoration:none;display:inline}
+.single h1.entry-title a{color:#777;text-decoration:none}
+.archive h1.entry-title, .search h1.entry-title{margin-bottom:30px}
+#commentform label{display:block}
+#commentform #comment{width:100%;max-width:400px !important;height:auto}
+#comments .comment{margin:20px 10px}
+#copyright{text-align:center}
+.entry-meta, .entry-footer{margin:20px 0}
+.entry-meta, .entry-meta a, .entry-footer, .entry-footer a{font-size:14px;color:#aaa}
+#site-description, #copyright, #copyright a{color:#f57f00}
+
+.sticky{}
+.bypostauthor{}
+.wp-caption{width:auto !important}
+.wp-caption.aligncenter, .wp-caption-text, .gallery-caption{text-align:center}
+.alignleft{margin:15px 15px 15px 0;float:left}
+.alignright{margin:15px 0 15px 15px;float:right}
+.aligncenter{display:block;margin:15px auto;clear:both}
+.entry-attachment img{margin:20px 0}
+#nav-below{margin-top:30px}
+#nav-below a, #nav-above a{text-decoration:none}
+#nav-above a{display:block;font-family:tahoma,sans-serif;font-size:50px;color:#777;line-height:0;margin:30px 0 15px}
+.nav-previous{text-align:left;float:left}
+.nav-next{text-align:right;float:right}
+
+@media all and (max-width:768px){#content, #sidebar{width:100%;padding:5%}#menu label.toggle{display:block}#menu ul{display:none}#menu ul ul{display:none !important}#menu ul.menu{padding-left:0}#menu ul.menu li a{margin-left:0}#menu input.toggle:checked + div > ul{display:block}#menu input.toggle:checked + div > ul li a{display:inline-block;width:100%;color:#000;padding-left:5%;border-right:none}#menu input.toggle:checked + div > ul li a:hover{color:#f57f00}#menu .parent > a, #menu .parent > a:hover{background-image:none}}
+@media all and (max-width:480px){.wp-caption, textarea{width:100% !important}}
+
+.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+.form-allowed-tags, #searchsubmit{display:none}
